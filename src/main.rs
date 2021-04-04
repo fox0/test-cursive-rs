@@ -78,7 +78,7 @@ fn main() {
             concat!(
             env!("CARGO_PKG_NAME"),
             " ",
-            env!("CARGO_PKG_VERSION")))));
+            env!("CARGO_PKG_VERSION"))).title("212")));
 
     app.set_autohide_menu(false);
     app.add_global_callback(Key::Esc, |s| s.select_menubar());
